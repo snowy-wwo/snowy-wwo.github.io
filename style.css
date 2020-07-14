@@ -20,3 +20,31 @@ height: 2000px;
 background: #3DD0FF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.shapka {
+position: absolute;
+width: 766px;
+height: 104px;
+left: 99px;
+top: 37px;
+
+background: #FFAFF7;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.text_s {
+position: absolute;
+width: 633px;
+height: 49px;
+left: 175px;
+top: 27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: 0.06em;
+
+color: #031782;
+}
