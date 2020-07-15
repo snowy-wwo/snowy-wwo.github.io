@@ -53,6 +53,8 @@ color: #031782;
 position: absolute;
 width: 369px;
 height: 59px;
+left: 298px;
+top: 203px;
 
 font-family: Roboto;
 font-style: normal;
@@ -69,6 +71,8 @@ color: #000000;
 position: absolute;
 width: 642px;
 height: 983px;
+left: 161px;
+top: 262px;
 
 font-family: Roboto;
 font-style: normal;
@@ -77,12 +81,15 @@ font-size: 35px;
 line-height: 41px;
 
 color: #000000;
+
 }
 
 .zaglavie2 {
 position: absolute;
 width: 509px;
 height: 52px;
+left: 228px;
+top: 1260px;
 
 font-family: Roboto;
 font-style: normal;
@@ -91,13 +98,14 @@ font-size: 50px;
 line-height: 59px;
 
 color: #000000;
-
 }
 
 .rules2 {
 position: absolute;
 width: 642px;
 height: 1557px;
+left: 161px;
+top: 1327px;
 
 font-family: Roboto;
 font-style: normal;
