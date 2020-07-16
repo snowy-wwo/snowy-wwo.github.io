@@ -120,8 +120,8 @@ color: #000000;
 position: absolute;
 width: 223px;
 height: 46px;
-left: 0px;
-top: 1271.73px;
+left: -16.59px;
+top: 1272.47px;
 
 font-family: Roboto;
 font-style: normal;
@@ -132,5 +132,6 @@ letter-spacing: 0.06em;
 
 color: #000000;
 
-transform: rotate(-51.59deg);
+opacity: 0.7;
+transform: rotate(-53.41deg);
 }
