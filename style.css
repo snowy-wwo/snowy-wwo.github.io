@@ -70,7 +70,7 @@ color: #000000;
 .rules1 {
 position: absolute;
 width: 642px;
-height: 1273px;
+height: 1313px;
 left: 161px;
 top: 262px;
 
@@ -79,6 +79,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 40px;
 line-height: 47px;
+text-indent: 9px;
 
 color: #000000;
 }
@@ -111,7 +112,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 40px;
 line-height: 47px;
-
+text-indent: 9px;
 color: #000000;
 }
 
