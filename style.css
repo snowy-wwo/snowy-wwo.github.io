@@ -12,7 +12,7 @@ box-sizing: border-box;
 box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
 }
 
-body {
+.baggr {
 position: relative;
 width: 964px;
 height: 4383px;
@@ -136,7 +136,7 @@ opacity: 0.7;
 transform: rotate(-53.41deg);
 }
 
-.sn1 {
+/*.sn1 {
 position: absolute;
 width: 53px;
 height: 46px;
@@ -151,7 +151,7 @@ line-height: 47px;
 letter-spacing: 0.06em;
 
 color: #000000;
-}
+}*/
 
 .sn2 {
 position: absolute;
@@ -539,7 +539,7 @@ line-height: 47px;
 color: #000000;
 }
 
-/* .Acid_rain {
+.Acid_rain {
 position: absolute;
 width: 183px;
 height: 47px;
@@ -553,13 +553,13 @@ font-size: 40px;
 line-height: 47px;
 /* identical to box height */
 
-/* letter-spacing: 0.06em;
+letter-spacing: 0.06em;
 
 color: #721F05;
 
 opacity: 0.7;
 transform: rotate(71.11deg);
-} */ */
+}
 
 .☃ {
 position: absolute;
@@ -578,7 +578,7 @@ color: #000000;
 
 }
 
-/* .Daria_Tapok {
+.Daria_Tapok {
 position: absolute;
 width: 245px;
 height: 47px;
@@ -592,13 +592,13 @@ font-size: 40px;
 line-height: 47px;
 /* identical to box height */
 
-/* letter-spacing: 0.06em;
+letter-spacing: 0.06em;
 
 color: #390154;
 
 opacity: 0.7;
 transform: rotate(-75.71deg);
-} */ */
+}
 
 .✸ {
 position: absolute;
@@ -637,3 +637,72 @@ color: #000000;
 
 opacity: 0.45;
 }
+
+.menu {
+  background: #555 url('images/menu-bg.jpg') repeat left top;
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+/* Basic CSS */
+
+a{
+display: block;
+height: 100%;
+}
+
+.menu ul {
+  border-top: 1px solid #555;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #555;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #555;
+  }
+
+.menu a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+  padding-top: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.icon-menu img {
+  margin-right: 5px;
+}
+

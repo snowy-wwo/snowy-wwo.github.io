@@ -1,0 +1,187 @@
+.menu {
+  background: #555 url('images/menu-bg.jpg') repeat left top;
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+/* Basic CSS */
+
+a{
+display: block;
+height: 100%;
+}
+
+.menu ul {
+  border-top: 1px solid #555;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #555;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #555;
+  }
+
+.menu a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 6px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+  padding-top: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.icon-menu img {
+  margin-right: 5px;
+}
+
+.bagg1 {
+position: absolute;
+width: 964px;
+height: 1850px;
+
+background: #3DD0FF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pole {
+position: absolute;
+width: 882px;
+height: 1600px;
+left: 41px;
+top: 182px;
+
+background: #E2E3EF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.nick{
+position: absolute;
+width: 416px;
+height: 1122px;
+left: 25px;
+top: 155px;
+}
+
+.day{
+position: absolute;
+width: 405px;
+height: 1122px;
+right: 47px;
+top: 155px;
+
+}
+
+.shap2 {
+position: absolute;
+width: 749px;
+height: 107px;
+left: 174px;
+top: 39px;
+
+background: #FFAFF7;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.ts2 {
+position: absolute;
+width: 700px;
+height: 70px;
+left: 72px;
+top: 18px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: 0.04em;
+
+color: #031782;
+}
+
+.by2{
+position: absolute;
+width: 350px;
+height: 29px;
+left: 320px;
+top: 1805px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+letter-spacing: 0.06em;
+
+color: #000000;
+
+opacity: 0.45;
+}
+
+#text {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: 0.04em;
+
+color: #000000;
+}
+
+hr{
+font-size: 50px;
+height: 3px;
+border: none;
+background-color: black;
+}
+
+.soz{
+position: absolute;
+width: 770px;
+height: 70px;
+left: 70px;
+top: 30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: 0.04em;
+
+color: #2816F1;
+}
